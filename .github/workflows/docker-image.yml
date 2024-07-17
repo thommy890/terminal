@@ -31,7 +31,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4.3.0
         with:
-          images: brona90/terminal
+          images: thommy890/terminal
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v4.0.0
